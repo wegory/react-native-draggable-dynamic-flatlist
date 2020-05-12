@@ -431,7 +431,7 @@ class DraggableFlatList extends Component {
                 onLayout={e => {
                     this._headerSize = e.nativeEvent.layout[horizontal ? 'width' : 'height'];
                 }}>
-                <ListHeaderComponent />
+            { ListHeaderComponent }
             </View>
         )
     };
